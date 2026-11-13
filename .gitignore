@@ -1,11 +1,28 @@
+
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+.pytest_cache/
 .venv/
+
+# Environment variables and secrets
 .env
-*.db
-*.sqlite*
+*.key
+
+# Generated datasets
 data/
 data_large/
+
+# SQLite databases
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Generated reports
 reports/
+reports_test/
+
+# Other generated output
 final_state.csv
-.pytest_cache/
